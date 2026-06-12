@@ -12,7 +12,7 @@ public class WebConfig implements WebMvcConfigurer {
                 .allowedOrigins(
                         "http://localhost:5173",
                         "http://localhost:3000",
-                        "intenshiptracking.netlify.app"
+                        "https://intenshiptracking.netlify.app"
                 )
                 .allowedMethods("GET", "POST", "PUT", "PATCH" , "DELETE", "OPTIONS")
                 .allowedHeaders("*")
